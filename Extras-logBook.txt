@@ -1,1 +1,60 @@
-learning linux as a fullstack developer
+Linux all commands learned by doing 
+Cd - home of linux
+Cd / - root of project 
+Cd -  geeting out of 1 folder
+Cd ..
+
+Ls  all files
+Ls -a - hidden folder
+Ls-la -order way to show all folder
+Ls-laf
+Pwd
+
+Mkdir
+Rmdir
+Rm -r -> remove directory with -r flag
+Rm => to remove file
+
+Cat > filename
+Ctrl+d to end 
+
+Cd /mnt/d/destinationDirectory
+
+Code . 
+Clear
+Exit
+
+Touch filename.txt
+Vi filename , :a (to edit) => open file  
+Ctrl + c then :wq
+Less filename 
+:wq
+
+Git Commands Learned by doing by far
+Git refspec error solution ( main master) 
+https://www.baeldung.com/java-git-src-refspec-match
+
+
+Git upstream - remote pc
+Git remote -v 
+Git remote rm <name> => (Common name of file are origin) - this methods,
+Unlinks local and remote repo - doesn’t delete it 
+
+
+Git status
+Git log
+Git reset
+Git stash
+
+
+Git fetch 
+Git merge
+
+Git pull - creates new H with a-b-c content - fetch then merg
+--rebase origin - 
+rebase pull does not create the new H commit. Instead, the rebase has copied the remote commits A--B--C and rewritten the local commits E--F--G to appear after them them in the local origin/main commit history
+
+
+
+
+
