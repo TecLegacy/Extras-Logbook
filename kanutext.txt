@@ -1,7 +1,10 @@
-Cd  <- root home of linux 
+41 Linux commands
+https://www.hostinger.in/tutorials/linux-commands 
+
+Cd - home of linux
 Cd / - root of project 
 Cd -  geeting out of 1 folder
-Cd .. going 1 dir up
+Cd ..
 
 Ls  all files
 Ls -a - hidden folder
@@ -14,14 +17,16 @@ Rmdir
 Rm -r -> remove directory with -r flag
 Rm => to remove file
 
-Cat > filename
+Cat > filename -> to edit file 
+Cat filename -> to show all data inside file
 Ctrl+d to end 
+Ctrl + l -> page up clear 
 
 Cd /mnt/d/destinationDirectory
 
 Code . 
+Ctrl + z <- exit vscode from terminal
 Clear
-ctrl + z <- exit vscode from terminal
 Exit
 
 Touch filename.txt
@@ -31,5 +36,36 @@ Less filename
 :wq
 
 
+cat filename1.txt filename2.txt > filename3.txt 
 
 
+
+
+Core concepts
+
+
+
+nano ~/.bashrc  => open a bash file in linux 
+.bashrc  -> linux environment variable set
+Which -> to locate file exe file path
+Type -a node => same as "which"  but inbuilt method - used to know the location on node binary file / any file ,,,
+command is a built-in shell command that can be used to determine the location of a command or program on your system
+
+Sudo -> open a admin rigths
+Sudo apt-get update => command updates your system's package lists
+Sudo apt-get install which => 
+command installs the which command on your system if it is available in the package repositories.
+Sudo apt-get upgrade => upar ek level kardo
+
+
+
+Linux bash how to set environment variable 
+export PATH=$PATH:/c/Program\ Files/nodejs  <- correct way to enter data in .bashrc file 
+C:\Program Files\nodejs\node.exe  <- path taken from cmd using "where" command
+
+
+ERROS SOLVE
+
+Ign 1 2 3 4 etc
+	- Disable security & firewall on  your loacal machine 
+	- Wsl --shutdown , then restart wsl again 
